@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 62.5% = 10px / Going off a base 16px without 62.5% */
+
+body {
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+}
+
+img {
+  width: 20px;
+}
+
+h2,
+.green {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+.container {
+  background-color: #fff;
+  width: 26.55rem;
+  height: 35.55rem;
+  border-radius: 1rem;
+}
+
+.first {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.52rem;
+  padding: 1.75rem 0rem;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 24.82rem;
+  height: 2.75rem;
+  margin-bottom: 1rem;
+}
+
+.green {
+  text-decoration: none;
+  color: #fff;
+  background: #0d8065;
+  width: 24.82rem;
+  height: 2.75rem;
+  padding-top: 0.95rem;
+  text-align: center;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+
+.green:hover {
+  background-color: #166553;
+}
+
+.gry {
+  font-size: 1rem;
+  color: rgba(128, 128, 128, 0.6);
+}
+
+.forth {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.thrid {
+  border: 1px solid gray;
+  padding: 10px 5px;
+  border-radius: 3px;
+}
+
+.g,
+.fa,
+.ap {
+  margin-bottom: 0.55rem;
+}
+
+.none {
+  color: #222;
+  text-decoration: none;
+}
+
+p,
+.term {
+  color: #222;
+  font-size: 0.85rem;
+}
+
+p {
+  margin: 0 1.55rem;
+  margin-bottom: 0.95rem;
+}
+
+.term {
+  padding-left: 8px;
+  margin: 0 0.25rem;
+}
